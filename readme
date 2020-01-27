@@ -8,4 +8,8 @@ To deploy:
 serverless deploy -v
 
 To invoke:
-serveless invoke -f hello(My Function) -l
+serverless invoke -f hello(My Function) -l
+
+To remove:
+serverless remove
+
