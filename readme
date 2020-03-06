@@ -1,15 +1,15 @@
-To create a serverless project:
+## To create a serverless project:
 serverless create --template aws-nodejs --path <name of project>
 
-To configure credentials:
+## To configure credentials:
 serverless config credentials -o --provider aws --key=<ID da chave de acesso> --secret <Chave de acesso secreta>
 
-To deploy:
+## To deploy:
 serverless deploy -v
 
-To invoke:
+## To invoke:
 serverless invoke -f hello(My Function) -l
 
-To remove:
+## To remove:
 serverless remove
 
